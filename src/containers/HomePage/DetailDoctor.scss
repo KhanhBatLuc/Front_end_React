@@ -1,0 +1,174 @@
+.box {
+  width: 100%;
+  .detail__doctor_partent {
+    width: 92%;
+    margin: 0 auto;
+    .header__doctor_schedule {
+      width: 100%;
+      .header__position {
+        padding: 5px 0 20px 0;
+        margin-left: 20px;
+        display: flex;
+        .header__left {
+          .img__box {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            img {
+              width: 100%;
+            }
+          }
+        }
+        .header__right {
+          margin-left: 20px;
+          .position__doctor {
+            text-transform: uppercase;
+            font-size: 27px;
+            color: #555;
+            padding-bottom: 10px;
+          }
+          .descrip__doctor {
+            font-size: 13px;
+            font-weight: 400;
+            color: #555;
+            text-align: left;
+          }
+          .pluging {
+            margin-top: 20px;
+          }
+        }
+      }
+      .header__schedule {
+        width: 100%;
+        display: flex;
+        .book__schedule {
+          width: 65%;
+          padding-left: 20px;
+          .form__select {
+            margin-bottom: 10px;
+            #select__time {
+              width: 20%;
+              height: 30px;
+              border: 1px solid white;
+              border-bottom: 2px solid;
+              outline: none;
+            }
+          }
+          .schedule {
+            .font__schedule {
+              padding: 10px 0;
+              .span__head {
+                font-size: 15px;
+                font-weight: bold;
+              }
+              span {
+                font-size: 13px;
+              }
+            }
+            .box__button {
+              button {
+                margin-right: 20px;
+                margin-bottom: 10px;
+                width: 180px;
+                height: 45px;
+                background: #fff8ae;
+                border: none;
+                outline: none;
+                .button__text {
+                  font-weight: 600;
+                }
+                &:hover {
+                  background-color: #45c3d2;
+                }
+              }
+            }
+          }
+        }
+        // .check__price {
+        //   width: 35%;
+        //   padding-left: 10px;
+        //   border-left: 1px solid rgb(214, 214, 214);
+        //   margin-top: 78px;
+        //   .address_public {
+        //     border-bottom: 1px solid d6d5d5;
+        //     h4 {
+        //       color: #555;
+        //       margin-bottom: 5px;
+        //       font-weight: bold;
+        //       text-transform: uppercase;
+        //     }
+        //     p {
+        //       font-size: 14px;
+        //       color: #555;
+        //       margin-bottom: 10px;
+        //       text-align: left;
+        //       .span_name {
+        //         font-weight: bold;
+        //       }
+        //     }
+        //   }
+        //   .price {
+        //     h3 {
+        //       padding-top: 10px;
+        //       color: #555;
+        //       margin-bottom: 5px;
+        //       font-weight: 600;
+        //       text-transform: uppercase;
+        //     }
+        //     .detail__price {
+        //       width: 90%;
+        //       margin: 20px auto;
+        //       box-shadow: 1px 4px 7px 3px grey;
+        //       .lay__up {
+        //         padding: 10px 13px;
+        //         background-color: #f8f8f8;
+        //         .title__price {
+        //           color: #555;
+        //           margin-bottom: 5px;
+        //           font-weight: 500;
+        //           display: initial;
+        //           text-transform: uppercase;
+        //         }
+        //         .right__price {
+        //           float: right;
+        //           color: #555;
+        //         }
+        //         .detail__title {
+        //           margin-top: 10px;
+        //           font-size: 13px;
+        //           color: #555;
+        //         }
+        //       }
+        //       .lay__down {
+        //         background-color: #e9e7e7;
+        //         .detail__title {
+        //           padding: 10px 13px;
+        //           font-size: 13px;
+        //           color: #555;
+        //         }
+        //       }
+        //     }
+        //     .toggle__click {
+        //       outline: none;
+        //       border: none;
+        //       margin: 10px 20px;
+        //       padding: 5px;
+        //       &:hover {
+        //         background-color: #45c3d2;
+        //       }
+        //     }
+        //   }
+        // }
+      }
+    }
+  }
+  .troduce__exprience {
+    margin-top: 30px;
+    border-top: 5px solid #b8b8b8;
+    background-color: #f8f7f7;
+    .troduce {
+      margin-left: 20px;
+    }
+  }
+}

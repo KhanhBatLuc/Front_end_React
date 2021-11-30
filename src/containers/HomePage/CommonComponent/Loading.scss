@@ -1,0 +1,15 @@
+#pre-loader {
+  position: absolute;
+  z-index: 100000;
+  margin: 0 auto;
+  display: inline;
+  width: 100%;
+  background-color: #47474742;
+  text-align: center;
+  height: 100%;
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+}

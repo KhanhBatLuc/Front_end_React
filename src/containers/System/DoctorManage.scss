@@ -1,0 +1,43 @@
+.doctor-partent {
+  width: 100%;
+  margin: 30px 0 20px 0;
+  .inf {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #333;
+  }
+  .header-partent {
+    width: 90%;
+    margin: 0 auto;
+    .col-one-left {
+      .text-choss {
+        font-size: 20px;
+        color: #333;
+        text-transform: uppercase;
+        margin: 10px;
+      }
+      width: 100%;
+      #select-doctor {
+        width: 100%;
+      }
+    }
+    .col-one-right {
+      width: 100%;
+      .text-choss {
+        font-size: 20px;
+        color: #333;
+        text-transform: uppercase;
+        margin: 10px;
+      }
+      #text {
+        width: 100%;
+      }
+    }
+    .infor-doctor {
+      .full__size {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

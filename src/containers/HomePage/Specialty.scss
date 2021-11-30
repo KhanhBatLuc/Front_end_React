@@ -1,0 +1,76 @@
+.intro {
+  width: 100%;
+  .introl__con {
+    background-image: url("https://cdn.bookingcare.vn/fo/2019/12/13/120331-co-xuong-khop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .con {
+      height: 200px;
+      color: #333;
+      overflow: hidden;
+      background-image: linear-gradient(
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 1)
+      );
+      padding: 20px;
+      &.toggle {
+        height: 400px;
+      }
+      .sibling {
+        padding: 0 73px;
+
+        li {
+          list-style: none;
+        }
+      }
+    }
+  }
+  .btn {
+    display: block;
+    outline: none;
+    border: 1px;
+    color: #288ad6;
+    font-weight: 500;
+  }
+}
+.main {
+  width: 100%;
+  background-color: #eeeeee;
+  .select {
+    width: 100%;
+    padding: 40px;
+    .special__select {
+      display: block;
+      height: 40px;
+      width: 180px;
+      color: #333;
+      padding-left: 14px;
+      outline: none;
+      border: none;
+      margin-bottom: 35px;
+      border-radius: 8px;
+      box-shadow: 1px 1px 2px 0px;
+    }
+    .card {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0px 1px 14px 4px #cfc7c7;
+      margin: 20px 0;
+      .divide {
+        border-radius: 5px;
+
+        padding: 20px;
+
+        .left {
+          display: flex;
+          padding-top: 10px;
+          width: 100%;
+          justify-content: space-evenly;
+        }
+      }
+    }
+  }
+}

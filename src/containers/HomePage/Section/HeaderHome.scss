@@ -1,0 +1,159 @@
+.home-container {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  display: flex;
+  .header-left {
+    width: 25%;
+    height: 100%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .fa-bars {
+      font-size: 25px;
+      color: #969495;
+    }
+    .img-header {
+      height: 40px;
+      width: 53%;
+    }
+  }
+  .header-center {
+    width: 50%;
+    .center-intro {
+      display: flex;
+      margin: 20px;
+      justify-content: space-around;
+      .center-intro-child {
+        list-style: none;
+        font-size: 14px;
+        a {
+          text-decoration: none;
+          color: #333;
+        }
+        .line-one {
+          display: block;
+          font-weight: bold;
+        }
+        .detail-hearder {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .header-right {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    .question {
+      padding: 30px;
+      margin-left: 100px;
+      .fa-question-circle {
+        display: inline-block;
+        color: #45c3d2;
+        font-size: 15px;
+        border-radius: 100%;
+      }
+      .support {
+        font-size: 14px;
+        margin: 0 10px;
+        font-weight: bold;
+        color: #969495;
+      }
+    }
+    .language {
+      span {
+        padding: 10px;
+        color: #969495;
+        font-weight: bold;
+        cursor: pointer;
+        &.active {
+          color: #e9da0c;
+        }
+      }
+    }
+  }
+}
+.home-banner {
+  background: url("https://bookingcare.vn/assets/anh/bookingcare-cover-4.jpg")
+    center center no-repeat;
+  background-image: linear-gradient(180deg);
+  width: 100%;
+
+  background-size: cover;
+
+  .search-info {
+    width: 70%;
+    padding: 63px;
+    margin: 0 auto;
+    h1.text-introl {
+      text-align: center;
+      font-size: 36px;
+      color: white;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 1px #333;
+    }
+    .ipnut-search {
+      text-align: center;
+      margin: 30px;
+      .search-now {
+        height: 52px;
+        background-color: #f7d800;
+        width: 60%;
+        margin: 0 auto;
+        border: 1px;
+        border-radius: 22px;
+        display: flex;
+        // justify-content: space-around;
+        align-items: center;
+        .fa-search {
+          padding: 30px;
+        }
+        .input-search-text {
+          width: 70%;
+          border: none;
+          background-color: transparent;
+          outline: none;
+          color: #969495;
+        }
+      }
+    }
+  }
+  .section-doctor {
+    padding-top: 124px;
+    .section-partent {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      background-image: linear-gradient(
+        rgba(238, 238, 238, 0.1),
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 1)
+      );
+      .section-chilsd {
+        list-style: none;
+        font-weight: bold;
+        .show-icon {
+          img {
+            height: 56px;
+            width: 56px;
+            background-color: white;
+            border: 1px;
+            padding: 9px;
+            border-radius: 100%;
+            box-shadow: 5px 5px 5px;
+          }
+        }
+      }
+    }
+  }
+}
+.duoi {
+  height: 300px;
+  width: 100%;
+  background-color: #45c3d2;
+}

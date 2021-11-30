@@ -1,0 +1,77 @@
+{
+    "homeHeader":{
+        "tranSpecitalist":"Specitalist ",
+        "search-doctor":"Search doctor",
+        "doctor":"Doctor",
+        "choose-doctor":"Choose Doctor",
+        "infrastructure":"infrastructure",
+        "choose-hospital":"choose hospital",
+        "check-general":"check General",
+        "choose-general":"choose General",
+        "support":"Support",
+        "loadmore":"Load More",
+        "populate-specialty":"Populare Specialty",
+        "neurology":"Neurology",
+        "orthopedic-department":"Orthopedic",
+        "reha":"Rehalibition",
+        "department":"Department",
+        "infactructor":"Infastructor"
+    },
+    "banner":{
+        "text-center":"medical backgroup ",
+        "text-center2":" comphrenhensive heathly care",
+        "specialist":"specialist ",
+        "specialist-examination":" examination",
+        "specialist-remote":" remote",
+        "specialist-generate":" generate",
+        "medical-test":"medical ",
+        "medical-test2":" test",
+        "mental-health":"mental ",
+        "mental-health2":" health",
+        "dentistry":"dentistry"
+    },
+    "menu": {
+        "system": {
+            "header": "System",
+            "system-administrator": {
+                "header": "System Administrator",
+                "user-manage": "User manage",
+                "redux-manage": "User manage REDUX"
+             
+            },
+            "system-parameter": {
+                "header": "System-parameter"
+            }
+        },
+        "admin":{
+            "header":"Manager User",
+            "manage-user":"Account user",
+            "manage-doctor":"Manager Doctor",
+            "crud-user" :"CRUD",
+            "crud-redux" :"CRUD REDUX",
+            "clinic":"Clinic",
+            "manage-clinic":"Manage Clinic",
+            "speciality": "Speciality",
+            "manage-speciality":"Manage Speciality",
+            "handbook":"Hand Book",
+            "manage-handbook":"Manage Hand Book",
+            "manage-schedule":"Manage Sick Schedule",
+            "schedule":"Schedule Sick"
+
+        }
+    },
+    "form-use":{
+        "add":"Add new user",
+        "email":"Email",
+        "password":"password",
+        "fname":"first name",
+        "lname":"last name",
+        "phonenumber":"phone number",
+        "address":"address",
+        "gender":"gender",
+        "position":"position",
+        "role":"role",
+        "save":"save",
+        "edit":"edit"
+    }
+}

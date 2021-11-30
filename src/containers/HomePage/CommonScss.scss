@@ -1,0 +1,13 @@
+.div-caro {
+  margin-top: 10px;
+  .div-caro-child {
+    width: 92%;
+    margin: 0 auto;
+    padding: 0 33px 27px 33px;
+    .div-title-head {
+      padding: 30px 0 15px 0;
+      color: #111;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.media {
+  padding: 0 33px 27px 33px;
+  .media-child {
+    display: flex;
+    width: 92%;
+    margin: 0 auto;
+    .left-media {
+      width: 50%;
+      padding: 10px;
+      .youtube {
+        width: 100%;
+      }
+    }
+    .right-media {
+      width: 50%;
+      padding-top: 35px;
+      h4 {
+        margin-left: 20px;
+        font-style: italic;
+      }
+    }
+  }
+}

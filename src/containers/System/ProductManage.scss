@@ -1,0 +1,45 @@
+.redux-form {
+  width: 100%;
+  margin-top: 30px;
+  .outline {
+    width: 80%;
+    margin: 0 auto;
+
+    .redux-child {
+      width: 100%;
+      display: flex;
+      margin: 10px;
+      gap: 30px;
+      .col1 {
+        width: 30%;
+        .text1 {
+          width: 100%;
+        }
+      }
+      .col2 {
+        width: 70%;
+        .text1 {
+          width: 100%;
+        }
+      }
+      .col-child {
+        width: 100%;
+        .uploadImg {
+          margin-top: 25px;
+          .upload {
+            display: inline-block;
+            padding: 5px 20px;
+            color: aliceblue;
+            background-color: black;
+          }
+        }
+        .text1 {
+          width: 100%;
+          &.text {
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+}

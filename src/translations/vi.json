@@ -1,0 +1,78 @@
+{
+    "homeHeader":{
+        "tranSpecitalist":"Chuyên khoa ",
+        "search-doctor":"Tìm bác sĩ theo chuyên khoa",
+        "doctor":"Bác sĩ",
+        "choose-doctor":"Chọn bác sĩ",
+        "infrastructure":"Cơ sở y tế",
+        "choose-hospital":"Chọn bệnh viện",
+        "check-general":"Gói khám",
+        "choose-general":"Chọn gói khám",
+        "support":"Hỗ trợ",
+        "loadmore":"Xem thêm",
+        "populate-specialty":"Chuyên khoa phổ biến",
+        "neurology":"Khoa thần kinh",
+        "orthopedic-department":"Khoa phục hồi",
+        "reha":"Khoa chỉnh hình",
+        "department":"Khoa chung",
+        "infactructor":"Cơ sở vật chất"
+
+    },
+    "banner":{
+        "text-center":"Nền tảng y tế",
+        "text-center2":" chăm sóc sức khỏe toàn diện",
+        "specialist":"Khám ",
+        "specialist-examination":" Chuyên khoa",
+        "specialist-remote":" Từ xa",
+        "specialist-generate":" Tổng quát",
+        "medical-test":"Xét nghiệm",
+        "medical-test2":"Y học",
+        "mental-health":"Sức khỏe ",
+        "mental-health2":"Tinh thần",
+        "dentistry":"Nha khoa"
+    },
+        "menu": {
+            "system": {
+                "header": "Hệ thống",
+                "system-administrator": {
+                "header": "Quản trị hệ thống",
+                "user-manage": "Quản lý người sử dụng"
+              
+               
+            },
+            "system-parameter": {
+                "header": "Tham số hệ thống"
+            }
+        },
+        "admin":{
+            "header":" người dùng",
+            "manage-user":"Quản lí tài khoản người dùng",
+            "manage-doctor":"Quản lí bác sĩ",
+            "crud-user" :"Co ro u d",
+            "crud-redux" :"Co ro uredux",
+            "clinic":"phong kham",
+            "manage-clinic":"quan li phong kham",
+            "speciality": "Co so vat chat",
+            "manage-speciality":"QL co so vat chat",
+            "handbook":"Cam nang",
+            "manage-handbook":"Quan li cam nang",
+            "manage-schedule":"Quan li lich kham benh",
+            "schedule":"lich kham benh"
+        }
+    },
+    "form-use":{
+        "add":"Them moi nguoi dung",
+        "email":"Email",
+        "password":"Mat Khau",
+        "fname":"ten lot",
+        "lname":"ten",
+        "phonenumber":"so dien thoai",
+        "address":"dia chi",
+        "gender":"gioi tinh",
+        "position":"chuc danh",
+        "role":"vai tro",
+        "save":"luu",
+        "edit":"sua"
+    }
+ 
+}
